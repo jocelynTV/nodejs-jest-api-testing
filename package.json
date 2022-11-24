@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-jest-api-testing",
+  "version": "1.0.0",
+  "description": "Nodejs jest api testing",
+  "main": "dist/index.js",
+  "repository": "https://github.com/khoatv92/nodejs-jest-api-testing.git",
+  "author": "Khoa Tran <khoatv.cntt@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "NODE_ENV=test jest"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.3.1",
+    "@types/jest": "^29.2.3",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.3.1",
+    "jest-html-reporters": "^3.0.11",
+    "supertest": "^6.3.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.3"
+  },
+  "engines": {
+    "node": "^18"
+  }
+}
